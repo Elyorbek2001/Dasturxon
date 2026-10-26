@@ -1,0 +1,183 @@
+export const dict = {
+  en: {
+    nav_home: 'Home',
+    nav_about: 'About',
+    nav_menu: 'Menu',
+    nav_gallery: 'Gallery',
+    nav_reviews: 'Reviews',
+    nav_book: 'Book a table',
+
+    hero_eyebrow: 'Authentic Uzbek Cuisine',
+    hero_title_1: 'Taste the soul of',
+    hero_title_2: 'Uzbek hospitality',
+    hero_text:
+      'Wood-fired grill, clay-oven bread and plov cooked the slow way. A table at Dasturxon feels like being invited home.',
+    hero_cta_1: 'Reserve a table',
+    hero_cta_2: 'View menu',
+    stat_1: 'Years of tradition',
+    stat_2: 'Dishes on the menu',
+    stat_3: 'Happy guests',
+    scroll: 'Scroll',
+
+    about_eyebrow: 'Our story',
+    about_title: 'A table set for everyone',
+    about_p1:
+      'Dasturxon means "the spread", the cloth laid out when guests arrive. In Uzbek homes it is never empty, and that is how we cook: generous, warm and made from scratch.',
+    about_p2:
+      'Our chefs bake bread in a real tandoor, cook plov in a cast-iron kazan every day and grill over charcoal. Fresh ingredients from local farms, recipes handed down through generations.',
+    about_f1_t: 'Fresh daily',
+    about_f1_d: 'Local produce and halal meat, delivered every morning.',
+    about_f2_t: 'Real tandoor',
+    about_f2_d: 'Bread and samsa baked in a clay oven, the traditional way.',
+    about_f3_t: 'Warm service',
+    about_f3_d: 'Every guest is treated like family, as the custom asks.',
+
+    menu_eyebrow: 'Our menu',
+    menu_title: 'Flavors worth coming back for',
+    menu_note: 'Prices are in US dollars. Please tell your waiter about any allergies.',
+    cat_starters: 'Starters',
+    cat_mains: 'Mains',
+    cat_grill: 'Grill',
+    cat_desserts: 'Desserts',
+    cat_drinks: 'Drinks',
+
+    gallery_eyebrow: 'Gallery',
+    gallery_title: 'A look inside',
+
+    res_eyebrow: 'Reservation',
+    res_title: 'Book your table',
+    res_text:
+      'Choose a date and time and we will confirm your reservation by phone within the hour. Groups of 10 or more, please call us.',
+    res_name: 'Full name',
+    res_name_ph: 'Your name',
+    res_phone: 'Phone number',
+    res_date: 'Date',
+    res_time: 'Time',
+    res_guests: 'Guests',
+    res_guests_unit: 'guests',
+    res_note: 'Special requests (optional)',
+    res_note_ph: 'Birthday, allergies, high chair...',
+    res_submit: 'Request reservation',
+    res_sending: 'Sending...',
+    res_ok_t: 'Thank you!',
+    res_ok_d: 'Your request has been received. We will call you shortly to confirm.',
+    res_again: 'Make another reservation',
+    res_err: 'Something went wrong. Please try again or call us.',
+    res_req: 'Please fill in your name and phone number.',
+    res_info_t: 'Opening hours',
+    res_info_call: 'Call us',
+    res_info_visit: 'Visit us',
+
+    rev_eyebrow: 'Guests say',
+    rev_title: 'Loved by locals and travelers',
+
+    footer_text: 'Authentic Uzbek cuisine in the heart of the city.',
+    footer_links: 'Quick links',
+    footer_contact: 'Contact',
+    footer_rights: 'All rights reserved.',
+  },
+  uz: {
+    nav_home: 'Bosh sahifa',
+    nav_about: 'Biz haqimizda',
+    nav_menu: 'Menyu',
+    nav_gallery: 'Galereya',
+    nav_reviews: 'Fikrlar',
+    nav_book: 'Stol band qilish',
+
+    hero_eyebrow: "Haqiqiy o'zbek oshxonasi",
+    hero_title_1: "O'zbek mehmondo'stligining",
+    hero_title_2: "ta'mini his eting",
+    hero_text:
+      "Ko'mirda pishgan kabob, tandir non va sekin pishirilgan osh. Dasturxondagi stol sizni uyga taklif qilgandek his qildiradi.",
+    hero_cta_1: 'Stol band qilish',
+    hero_cta_2: 'Menyuni ko\'rish',
+    stat_1: "Yillik an'ana",
+    stat_2: 'Menyudagi taom',
+    stat_3: 'Mamnun mehmon',
+    scroll: 'Pastga',
+
+    about_eyebrow: 'Hikoyamiz',
+    about_title: 'Hamma uchun to\'shalgan dasturxon',
+    about_p1:
+      "Dasturxon, mehmon kelganda to'shaladigan bo'z. O'zbek uyida u hech qachon bo'sh bo'lmaydi, biz ham shunday pishiramiz: mo'l, issiq va noldan.",
+    about_p2:
+      "Oshpazlarimiz non va somsani haqiqiy tandirda yopadi, osh har kuni cho'yan qozonda pishadi, kabob esa ko'mirda. Mahalliy fermerlarning yangi mahsulotlari va avloddan avlodga o'tgan retseptlar.",
+    about_f1_t: 'Har kuni yangi',
+    about_f1_d: "Mahalliy mahsulotlar va halol go'sht, har tong yetkaziladi.",
+    about_f2_t: 'Haqiqiy tandir',
+    about_f2_d: "Non va somsa an'anaviy tarzda tandirda yopiladi.",
+    about_f3_t: 'Iliq xizmat',
+    about_f3_d: "Har bir mehmon oiladek kutib olinadi, odatimiz shunday.",
+
+    menu_eyebrow: 'Bizning menyu',
+    menu_title: "Qaytib kelishga arziydigan ta'mlar",
+    menu_note: "Narxlar AQSh dollarida. Allergiyangiz bo'lsa, ofitsiantga ayting.",
+    cat_starters: 'Yengil taomlar',
+    cat_mains: 'Asosiy taomlar',
+    cat_grill: 'Kabob',
+    cat_desserts: 'Shirinliklar',
+    cat_drinks: 'Ichimliklar',
+
+    gallery_eyebrow: 'Galereya',
+    gallery_title: 'Ichkarini ko\'ring',
+
+    res_eyebrow: 'Band qilish',
+    res_title: 'Stolingizni band qiling',
+    res_text:
+      "Sana va vaqtni tanlang, bron soat ichida telefon orqali tasdiqlanadi. 10 va undan ortiq kishi uchun bizga qo'ng'iroq qiling.",
+    res_name: 'Ism-familiya',
+    res_name_ph: 'Ismingiz',
+    res_phone: 'Telefon raqami',
+    res_date: 'Sana',
+    res_time: 'Vaqt',
+    res_guests: 'Mehmonlar',
+    res_guests_unit: 'kishi',
+    res_note: "Qo'shimcha istaklar (ixtiyoriy)",
+    res_note_ph: "Tug'ilgan kun, allergiya, bolalar stuli...",
+    res_submit: "So'rov yuborish",
+    res_sending: 'Yuborilmoqda...',
+    res_ok_t: 'Rahmat!',
+    res_ok_d: "So'rovingiz qabul qilindi. Tasdiqlash uchun tez orada qo'ng'iroq qilamiz.",
+    res_again: 'Yana band qilish',
+    res_err: "Xatolik yuz berdi. Qayta urinib ko'ring yoki qo'ng'iroq qiling.",
+    res_req: 'Iltimos, ism va telefon raqamini kiriting.',
+    res_info_t: 'Ish vaqti',
+    res_info_call: "Qo'ng'iroq qiling",
+    res_info_visit: 'Manzil',
+
+    rev_eyebrow: 'Mehmonlar fikri',
+    rev_title: 'Mahalliy va sayyohlar sevgan joy',
+
+    footer_text: "Shahar markazidagi haqiqiy o'zbek oshxonasi.",
+    footer_links: 'Havolalar',
+    footer_contact: 'Aloqa',
+    footer_rights: 'Barcha huquqlar himoyalangan.',
+  },
+}
+
+export const reviews = [
+  {
+    name: 'Aziza K.',
+    role: { en: 'Local guest', uz: 'Mahalliy mehmon' },
+    text: {
+      en: 'The best plov in the city. Rice was perfectly cooked and the service made us feel like family.',
+      uz: "Shahardagi eng mazali osh. Guruch aynan kerakli darajada pishgan, xizmat esa oiladek iliq edi.",
+    },
+  },
+  {
+    name: 'James R.',
+    role: { en: 'Visitor from the UK', uz: 'Buyuk Britaniyadan mehmon' },
+    text: {
+      en: 'We came for the tandoor lamb ribs and stayed for the tea and baklava. Unforgettable evening.',
+      uz: "Tandir qovurg'a uchun keldik, choy va bakhlava uchun qoldik. Unutilmas kech.",
+    },
+  },
+  {
+    name: 'Dilnoza M.',
+    role: { en: 'Birthday dinner', uz: "Tug'ilgan kun kechki ovqati" },
+    text: {
+      en: 'Booked online in a minute, the table was ready and the staff even surprised us with a dessert.',
+      uz: "Bir daqiqada onlayn band qildik, stol tayyor edi, xodimlar esa bizga shirinlik bilan syurpriz qilishdi.",
+    },
+  },
+]
